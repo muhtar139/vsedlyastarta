@@ -5,6 +5,6 @@ function start() {
 
 //Эта функция будет запускаться каждую секунду
 function timer() {
-	var elem = document.getElementById('test');
+	const elem = document.querySelector("#test");
 	elem.value = parseInt(elem.value)+1; //parseInt преобразует строку в число
 }
